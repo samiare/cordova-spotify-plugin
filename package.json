@@ -4,14 +4,14 @@
   "description": "",
   "repository": {
     "type": "git",
-    "url": "git://github.com/timflapper/cordova-spotify-plugin.git"
+    "url": "git://github.com/samiare/cordova-spotify-plugin.git"
   },
   "author": "Tim Flapper",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/timflapper/cordova-spotify-plugin/issues"
+    "url": "https://github.com/samiare/cordova-spotify-plugin/issues"
   },
-  "homepage": "https://github.com/timflapper/cordova-spotify-plugin",
+  "homepage": "https://github.com/samiare/cordova-spotify-plugin",
   "devDependencies": {
     "chai": "^1.9.2",
     "chai-as-promised": "^4.1.1",

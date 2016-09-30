@@ -54,7 +54,7 @@ function createRemoteMethod(uri, type, dataKeys) {
 
     if (type & REMOTE_SESSION) {
       options.session = args.pop();
-      options.uri = options.uri.replace('$U', session.canonicalUsername);
+      options.uri = options.uri.replace('$U', options.session.canonicalUsername);
     }
 
     if (type & REMOTE_ID_IN_URL)

@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="com.timflapper.spotify" version="0.1.0">
+<plugin id="cordova-spotify-plugin" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" version="0.1.0">
   <name>Spotify Cordova Plugin</name>
   <description>This plugin provides a JavaScript API for Spotify's iOS SDK.</description>
   <author>Tim Flapper</author>
   <license>MIT</license>
   <keywords>spotify</keywords>
-  <repo>https://github.com/timflapper/cordova-spotify-plugin</repo>
-  <issue>https://github.com/timflapper/cordova-spotify-plugin/issues</issue>
 
   <engines>
     <engine name="cordova" version=">=3.7.0" />
@@ -50,7 +48,7 @@
           <string>Spotify Auth</string>
           <key>CFBundleURLSchemes</key>
           <array>
-            <string>{{URL_SCHEME}}</string>
+            <string></string>
           </array>
         </dict>
       </array>

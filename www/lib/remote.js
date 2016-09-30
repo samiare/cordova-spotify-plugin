@@ -32,7 +32,7 @@ function remote(options, callback) {
 
   reqwest(req)
     .then(function (data) {
-      paginate(data, session);
+      paginate(data, options.session);
 
       callback(null, data);
     })
